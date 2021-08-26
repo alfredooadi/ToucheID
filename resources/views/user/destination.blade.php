@@ -39,7 +39,7 @@
 
               {{-- <div class=" wow fadeInUp">
                 <div class="section-header">
-                  <h3 class="section-title">Daftar Destinasi</h3>
+                  <h3 class="section-title">Daftar Layanan</h3>
                   <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
                 </div>
               </div>
@@ -75,7 +75,7 @@
             <div class="col-sm-3 mt-5">
               <form action="{{route('destination')}}" class="mt-5">
                 <div class="input-group mb-4 border rounded-pill shadow-lg" style="border-radius:10px; box-shadow: 3px 3px 8px grey;">
-                  <input type="text" name="s" value="{{Request::get('s')}}" placeholder="Destinasi lain?" class="form-control bg-none border-0" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
+                  <input type="text" name="s" value="{{Request::get('s')}}" placeholder="Pelayanan lain?" class="form-control bg-none border-0" style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
                   <div class="input-group-append border-0">
                     <button type="submit" class="btn text-success"><i class="fa fa-search"></i></button>
                   </div>

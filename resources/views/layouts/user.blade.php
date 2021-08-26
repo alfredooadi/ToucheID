@@ -40,7 +40,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero">
+        <a href="/home">
           <img src="{{asset('user/images/logo.png')}}" style="margin-right:5px; width:50px;" /></img>
           <h2 class="d-inline text-light">Touche</h2>
         </a>
@@ -50,7 +50,7 @@
         <ul class="nav-menu">
           <li class="{{$url=='home'?'menu-active':''}}"><a href="{{url('home')}}">Home</a></li>
           <li class="{{$url=='blog'?'menu-active':''}}"><a href="{{url('blog')}}">Blog</a></li>
-          <li class="{{$url=='destination'?'menu-active':''}}"><a href="{{url('destination')}}">About Us</a></li>
+          <li class="{{$url=='destination'?'menu-active':''}}"><a href="{{url('destination')}}">Services</a></li>
           <li class="{{$url=='contact'?'menu-active':''}}"><a href="{{url('contact')}}">Contact </a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -69,6 +69,10 @@
     @yield('content')
 
   </main>
+
+  <a href="https://wa.me/6281328283875" class="float">
+        <i class="fa fa-whatsapp fa-3x my-float" aria-hidden="true"></i>
+  </a>
 
   <!--==========================
     Footer

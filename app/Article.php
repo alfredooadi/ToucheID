@@ -10,4 +10,5 @@ class Article extends Model
         // return $this->belongsToMany(Category::class)->withPivot('category_id');
         return $this->belongsToMany('App\Category')->withPivot('category_id');
     }
+    
 }
